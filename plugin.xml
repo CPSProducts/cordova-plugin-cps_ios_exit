@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+    xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    id="com.osvaldo.ios_exit"
+    version="1.0.0">
+
+    <name>ios_exit</name>
+    <description>A plugin to exit an iOS app from inside a Cordova project</description>
+    <license>Apache 2.0</license>
+    <author>Osvaldo Concepcion</author>
+    <keywords>ios, exit</keywords>
+
+    <engines>
+        <engine name="cordova-ios" version=">=1.7.1" />
+    </engines>
+
+    <js-module src="www/ios_exit.js" name="ios_exit">
+        <clobbers target="window.ios_exit" />
+    </js-module>
+
+    <platform name="ios">
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="ios_exit">
+                <param name="ios-package" value="ios_exit" onload="true"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/ios_exit.h" target-dir="ios_exit" />
+        <source-file src="src/ios/ios_exit.m" target-dir="ios_exit" />
+
+    </platform>
+</plugin>

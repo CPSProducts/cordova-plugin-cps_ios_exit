@@ -1,0 +1,34 @@
+{
+  "_from": "git+https://ikarus_balsero@bitbucket.org/ikarus_balsero/com.osvaldo.ios_exit.git",
+  "_id": "om.osvaldo.ios_exit@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-6odr96xRVSoJ46WBMoOuRS5JWWM=",
+  "_location": "/om.osvaldo.ios_exit",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://ikarus_balsero@bitbucket.org/ikarus_balsero/com.osvaldo.ios_exit",
+    "rawSpec": "https://ikarus_balsero@bitbucket.org/ikarus_balsero/com.osvaldo.ios_exit",
+    "saveSpec": "git+https://ikarus_balsero@bitbucket.org/ikarus_balsero/com.osvaldo.ios_exit.git",
+    "fetchSpec": "https://ikarus_balsero@bitbucket.org/ikarus_balsero/com.osvaldo.ios_exit.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://ikarus_balsero@bitbucket.org/ikarus_balsero/com.osvaldo.ios_exit.git#b661df95e4edc64bb05f5e243e919a57552fbdfd",
+  "_spec": "https://ikarus_balsero@bitbucket.org/ikarus_balsero/com.osvaldo.ios_exit",
+  "_where": "/Users/it-10107/Documents/cpslink/CPS Link/node_modules",
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "om.osvaldo.ios_exit",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "A plugin to exit an iOS app from inside a Cordova project",
+  "name": "om.osvaldo.ios_exit",
+  "version": "1.0.0"
+}
